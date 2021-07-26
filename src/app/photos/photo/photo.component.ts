@@ -5,7 +5,7 @@ import { Component, Input } from "@angular/core";
     templateUrl: 'photo.component.html'
 })
 
-export class PhotoCompponent {
+export class PhotoComponent {
     @Input() url='';
     
     @Input() description='';
